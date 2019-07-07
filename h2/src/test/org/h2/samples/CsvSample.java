@@ -31,7 +31,7 @@ public class CsvSample {
     public static void main(String... args) throws SQLException {
         CsvSample.write();
         CsvSample.read();
-        FileUtils.delete("data/test.csv");
+        //FileUtils.delete("data/test.csv");
     }
 
     /**
